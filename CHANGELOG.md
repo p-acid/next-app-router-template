@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.1](https://github.com/p-acid/next-app-router-template/compare/v1.0.0...v1.0.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* next-auth build error ([b598587](https://github.com/p-acid/next-app-router-template/commit/b5985876f2cd1b4aada7d7cc4e820124a1a19e76))
+* next-auth route file extensions ([96efb19](https://github.com/p-acid/next-app-router-template/commit/96efb19045047936819bd7be1eb10d1588ad1ee7))
+
+
+### Docs
+
+* Update README.md ([09b5f62](https://github.com/p-acid/next-app-router-template/commit/09b5f6273f62d2fc52bf79cbd7c6a2d8185de724))
+
 ## 1.0.0 (2023-10-27)
 
 
