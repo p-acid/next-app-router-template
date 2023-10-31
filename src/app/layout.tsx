@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 
+import EdgeStoreProvider from "@/provider/edge-provider"
 import { TanstackProviders } from "@/provider/query-provider"
 import SessionProvider from "@/provider/session-provider"
 import { ThemeProvider } from "@/provider/theme-provider"
@@ -25,11 +26,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <TanstackProviders>
-          <SessionProvider>
-            <ThemeProvider>{children}</ThemeProvider>
-          </SessionProvider>
-        </TanstackProviders>
+        <EdgeStoreProvider>
+          <TanstackProviders>
+            <SessionProvider>
+              <ThemeProvider>{children}</ThemeProvider>
+            </SessionProvider>
+          </TanstackProviders>
+        </EdgeStoreProvider>
       </body>
     </html>
   )
