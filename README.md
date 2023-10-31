@@ -17,6 +17,7 @@
   - Please add the following action secrets:
     - `TELEGRAM_CHAT_ID`: This is the ID of the chat room where Telegram notifications will be delivered.
     - `TELEGRAM_TOKEN`: Please enter your Telegram bot token. You can find out through the bot father.
+  - Change GitHub Action Permission in repository's settings
 
 ## Commands
 
