@@ -8,15 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "lint-staged": {
-    "**/*.{tsx,ts,jsx,js}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "**/*.ts?(x)": [
-      "tsc-files --noEmit"
-    ]
-  },
   "dependencies": {
     "@edgestore/react": "^0.1.4",
     "@edgestore/server": "^0.1.4",
