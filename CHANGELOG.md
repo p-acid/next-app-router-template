@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.2](https://github.com/p-acid/next-app-router-template/compare/v1.0.1...v1.0.2) (2023-10-31)
+
+
+### Bug Fixes
+
+* 빌드 에러 ([7edb026](https://github.com/p-acid/next-app-router-template/commit/7edb026c486e918ff7e8f3efed29c39a2275640a))
+
+
+### Docs
+
+* Update README.md ([cfff3f2](https://github.com/p-acid/next-app-router-template/commit/cfff3f28d2045cd79d74ebab45043f7737eb556f))
+
+
+### Configuration Settings
+
+* edge store 설정 추가 ([bfc55f9](https://github.com/p-acid/next-app-router-template/commit/bfc55f93210f4cf67a64c18c182cb93325b552f4))
+* lint-staged 타입스크립트 체크 설정 변경 ([e03c579](https://github.com/p-acid/next-app-router-template/commit/e03c579d3756a1b121a38852685cc8095f045c26))
+
 ## [1.0.1](https://github.com/p-acid/next-app-router-template/compare/v1.0.0...v1.0.1) (2023-10-27)
 
 
