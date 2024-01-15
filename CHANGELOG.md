@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/p-acid/next-app-router-template/compare/v1.0.2...v1.0.3) (2024-01-15)
+
+
+### Bug Fixes
+
+* husky 동작 오류 수정 ([45fb33a](https://github.com/p-acid/next-app-router-template/commit/45fb33a3c7ca083f332d2b0b130095706dde520f))
+
 ## [1.0.2](https://github.com/p-acid/next-app-router-template/compare/v1.0.1...v1.0.2) (2023-10-31)
 
 
